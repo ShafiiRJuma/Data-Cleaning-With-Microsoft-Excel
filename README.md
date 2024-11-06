@@ -9,6 +9,7 @@ In my journey as a data analysis student, I’m focusing on developing strong da
 
 ## About the Data
 The dataset consists of 17 columns, covering key details such as age, industry, job title, annual salary, country, state (if in the U.S.), city, race, and gender. Each column provides important information that could influence analysis outcomes depending on the project's objectives.
+
 ![Raw Columns on The Ask a Manager Salary Survey 2021](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/DataCleaningColumn.jpg)
 ## Data Cleaning Process
 To approach data cleaning systematically, I first established my objectives and identified the columns that would be most critical in my analysis. This helped to ensure that any changes to the data would align with my analytical goals.
@@ -26,12 +27,15 @@ Dataset Overview: With 28,088 rows, this dataset is substantial, and I carefully
 
 ### Duplicate Removal: 
 I used Excel’s Remove Duplicates tool to check for any repeated data. Fortunately, no duplicates were present.
+
 ![Data Cleaning Raw Duplicates](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/DataCleaningRawDeleteDuplicates.jpg)
 ### Unnecessary Columns Removal: 
 Based on my objectives, I identified and removed columns that were not relevant, including additional job context details and income descriptors that wouldn’t impact the main objectives. This decision ensured a cleaner dataset, focused on general job titles rather than specific sub-roles.
+
 ![Data Cleaning removing unnecessary Columns](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/DataCleaning4.jpg)
 ### Handling Blank Fields: 
 I examined key columns for missing data and addressed them as follows:
+
 ![Data Cleaning Handling Blank Cells](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/DataCleaning5.jpg)
 #### Industry Column: 
 For blank cells in the industry column, I matched job titles with likely industries based on common responses. For example, if a job title was “Software Developer” and the industry field was blank, I filled it with “Tech.”
@@ -44,16 +48,22 @@ I left blank cells in the job title column as they didn’t significantly impact
 No blank cells were found, and no further cleaning was needed here.
 #### Standardizing Formats: 
 I unified inconsistent entries, such as multiple abbreviations and spellings for "United States" (e.g., US, USA, United States of America) using the Find and Replace tool. I applied similar standardization to currency labels.
+
 ![Data Cleaning Consistent Formatting](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/DataCleaning15.jpg)
 ### Outlier Detection: 
 I reviewed the salary column for unrealistic values that could skew results, such as very low annual incomes (e.g., $17). Outliers like these were either corrected if a clear pattern existed or removed if they appeared inaccurate.
+
 ![Data Cleaning removing Outliers](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/DataCleaning17.jpg)
 
 ### Filtering Unwanted Rows: 
 Rows containing “Student” as a job title were removed since the project focused on professional income trends, not those of students.
+
 ![Data Cleaning removing unwanted rows](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/DataCleaning18.jpg)
 ### Currency Conversion: 
 Some salaries were listed in various currencies. I converted all non-USD currencies to USD to maintain consistency. This step involved applying exchange rates and ensured comparability across rows.
+
 ![Data Cleaning currency conversion](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/DataCleaning25.jpg)
 ## Final Remarks
 Through these data cleaning steps, I was able to prepare a structured, reliable dataset ready for analysis. This project has underscored the importance of data cleaning in ensuring accuracy and insight, which are essential in any data analysis project. With a clean dataset, I can now confidently move forward to explore trends, conduct analysis, and generate visualizations that will provide meaningful insights.
+
+![My Final Cleaned Dataset](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/final.jpg)
