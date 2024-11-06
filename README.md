@@ -9,7 +9,7 @@ In my journey as a data analysis student, I’m focusing on developing strong da
 
 ## About the Data
 The dataset consists of 17 columns, covering key details such as age, industry, job title, annual salary, country, state (if in the U.S.), city, race, and gender. Each column provides important information that could influence analysis outcomes depending on the project's objectives.
-![Raw Columns on The Ask a Manager Salary Survey 2021](main/DataCleaningColumn.jpg)
+![Raw Columns on The Ask a Manager Salary Survey 2021](https://github.com/ShafiiRJuma/Data-Cleaning-With-Microsoft-Excel/blob/main/DataCleaningColumn.jpg)
 ## Data Cleaning Process
 To approach data cleaning systematically, I first established my objectives and identified the columns that would be most critical in my analysis. This helped to ensure that any changes to the data would align with my analytical goals.
 
