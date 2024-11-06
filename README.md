@@ -1,6 +1,8 @@
 # Data Cleaning with Microsoft Excel
-Dataset Source: Kaggle - Ask a Manager Salary Survey 2021
-Project Objective: Practice data cleaning techniques in Microsoft Excel to prepare a dataset for analysis.
+#### Dataset Source: 
+Kaggle - Ask a Manager Salary Survey 2021
+#### Project Objective: 
+Practice data cleaning techniques in Microsoft Excel to prepare a dataset for analysis.
 
 ## Introduction
 In my journey as a data analysis student, I’m focusing on developing strong data cleaning skills, as this is often one of the most challenging and crucial steps in the analysis process. While it may seem tedious, mastering data cleaning builds resilience and attention to detail, qualities that are essential for any data analyst. This project uses a dataset obtained from Kaggle, containing responses from various professionals regarding their annual salaries across industries. By cleaning and organizing this data, I aim to prepare it for effective analysis and ensure reliable results.
@@ -12,9 +14,9 @@ The dataset consists of 17 columns, covering key details such as age, industry, 
 To approach data cleaning systematically, I first established my objectives and identified the columns that would be most critical in my analysis. This helped to ensure that any changes to the data would align with my analytical goals.
 
 ## Project Objectives
-Analyze Salary Trends Across Professions and Demographics: This objective required a focus on columns such as profession, annual salary, location (country, state, city), age, and race.
-Assess the Impact of Experience on Salary: To explore this, I focused on the “Years of Experience” and “Annual Salary” columns.
-Evaluate the Influence of Educational Level on Salary: Here, I prioritized the “Highest Level of Education” and “Annual Salary” columns.
+1. Analyze Salary Trends Across Professions and Demographics: This objective required a focus on columns such as profession, annual salary, location (country, state, city), age, and race.
+2. Assess the Impact of Experience on Salary: To explore this, I focused on the “Years of Experience” and “Annual Salary” columns.
+3. Evaluate the Influence of Educational Level on Salary: Here, I prioritized the “Highest Level of Education” and “Annual Salary” columns.
 With these objectives in place, I knew which columns required careful handling to avoid compromising the accuracy of the insights.
 
 ## Steps Taken
